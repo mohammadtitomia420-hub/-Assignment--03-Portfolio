@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tito Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-900">
+
+    <!-- HEADER -->
+<header class="fixed top-0 left-0 w-full bg-white shadow z-50">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+
+    <!-- Logo -->
+    <h1 class="text-2xl font-bold cursor-pointer text-blue-700">Mr Tito</h1>
+
+    <!-- Desktop Menu -->
+    <nav>
+      <ul class="hidden md:flex gap-8 text-lg">
+        <li><a href="#hero" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+        <li><a href="#experience" class="hover:text-blue-500">Experience</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hamburger Icon (Mobile ONLY) -->
+    <button id="menu-btn" class="md:hidden text-3xl">
+      ☰
+    </button>
+
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div
+    id="mobile-menu"
+    class="hidden flex flex-col bg-white shadow px-6 py-4 space-y-4 md:hidden"
+  >
+    <a href="#hero" class="hover:text-blue-500">Home</a>
+    <a href="#skills" class="hover:text-blue-500">Skills</a>
+    <a href="#services" class="hover:text-blue-500">Services</a>
+    <a href="#experience" class="hover:text-blue-500">Experience</a>
+    <a href="#contact" class="hover:text-blue-500">Contact</a>
+  </div>
+</header>
+
+<!-- HERO /-->
+<section id="hero" class="min-h-screen flex flex-col md:flex-row justify-center items-center text-center ml-14 mr-14 md:text-left px-4 pt-28 gap-10">
+  
+  <!-- Left Content -->
+  <div class="flex-1">
+    <h1 class="text-4xl md:text-6xl font-bold">Hi, I'm Tito</h1>
+    <p class="text-xl text-gray-600 mt-4 max-w-xl">
+     Fullstack Web Developer specializing in React, JavaScript, and modern UI design.
+    </p>
+
+    <button class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Hire Me
+    </button>
+  </div>
+
+  <!-- Right Image -->
+  <div class="flex-1">
+    <img src="./asset/Tito.jpg" 
+         alt="Tito Miya" 
+         class="w-72 md:w-96  rounded-full shadow-lg mx-auto">
+  </div>
+</section>
+
+
+   
+
+    <!-- SERVICES -->
+    <section id="services" class="py-20 px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Services</h2>
+
+      <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-semibold mb-2">Backend Development</h3>
+          <p class="text-gray-600">I develop secure and scalable backend systems using Node.js, Express.js,
+  and MongoDB. I build REST APIs, handle authentication, manage databases,
+  and create complete server-side logic to support dynamic and interactive
+  applications with smooth performance.</p>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-semibold mb-2">Frontend Development</h3>
+          <p class="text-gray-600">I build modern, responsive, and user-friendly frontend applications using
+  HTML, CSS, JavaScript, React, and Tailwind CSS. My focus is on clean UI,
+  smooth user experience, fast performance, and fully mobile-friendly layouts.
+  I ensure pixel-perfect components and maintainable code for long-term growth.</p>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-semibold mb-2">Figma to HTML</h3>
+          <p class="text-gray-600"> I convert Figma, PSD, or XD designs into pixel-perfect, clean, and fully
+  responsive HTML, CSS, and Tailwind layouts. I ensure accuracy, modern
+  styling, and high-quality code that matches the exact design while keeping
+  the website fast and user-friendly.</p>
+        </div>
+      </div>
+    </section>
+
+     <!-- SKILLS -->
+    <section id="skills" class="py-20 px-6 bg-gray-100">
+      <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+
+      <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">HTML</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">CSS</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">JavaScript</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">React</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">Tailwind</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">Bootstrap</div>
+         <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">Git Github</div>
+        <div class="bg-white p-6 shadow rounded text-center font-semibold cursor-pointer">Figma</div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+<section id="experience" class="py-20 px-6 bg-gray-100">
+  <h2 class="text-3xl font-bold text-center mb-12">Work Experience</h2>
+
+  <div class="max-w-4xl mx-auto space-y-8">
+
+    <!-- Self Learning / Projects -->
+    <div class="p-6 bg-white shadow rounded">
+      <h3 class="text-xl font-semibold">Self-Learning & Personal Projects</h3>
+      <p class="text-gray-600 mt-2">2024 - Present</p>
+      <p class="mt-3 text-gray-700">
+        Learned and practiced React, JavaScript, and modern UI design. 
+        Built multiple personal projects including portfolio websites, Figma-to-HTML conversions, 
+        and responsive UI components. Focused on mastering frontend development through hands-on experience.
+      </p>
+    </div>
+
+    <!-- Optional small contribution / online learning -->
+    <div class="p-6 bg-white shadow rounded">
+      <h3 class="text-xl font-semibold">Online Courses & Tutorials</h3>
+      <p class="text-gray-600 mt-2">2025 - Present</p>
+      <p class="mt-3 text-gray-700">
+        Completed several courses and tutorials on React, Tailwind CSS, Node.js, 
+        and modern web development practices to enhance practical skills and stay updated with industry standards.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Contact</h2>
+
+      <div class="max-w-lg mx-auto bg-white shadow p-8 rounded">
+        <form class="space-y-5">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="number"
+            placeholder="Your Phone Number"
+            class="w-full p-3 border rounded"
+          />
+          <textarea
+            placeholder="Message"
+            class="w-full p-3 border rounded"
+            rows="4"
+          ></textarea>
+
+          <button class="w-full py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white mt-10">
+  <!-- Social Links -->
+  <div class="flex justify-center gap-10 py-6">
+    <!-- Facebook -->
+    <a href="https://facebook.com" target="_blank" class="hover:opacity-50">
+      <img src="./asset/facebook.gif" alt="Facebook" class="w-10 h-10">
+    </a>
+    <!-- Twitter -->
+    <a href="https://twitter.com" target="_blank" class="hover:opacity-50">
+      <img src="./asset/twitter.gif" alt="Twitter" class="w-10 h-10">
+    </a>
+    <!-- X -->
+    <a href="https://x.com" target="_blank" class="hover:opacity-50">
+      <img src="./asset/linkdin.gif" alt="X" class="w-10 h-10">
+    </a>
+    <!-- YouTube -->
+    <a href="https://youtube.com" target="_blank" class="hover:opacity-50">
+      <img src="./asset/youtube.gif" alt="YouTube" class="w-10 h-10">
+    </a>
+  </div>
+  <!-- Copyright -->
+  <div class="text-center text-gray-400 py-4 border-t border-gray-700">
+    © 2025 Tito | All Rights Reserved
+  </div>
+</footer>
+
+
+    <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+  </body>
+</html>
