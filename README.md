@@ -33,5 +33,5 @@ The website is fully responsive, built with **HTML, Tailwind CSS, and JavaScript
 
 ## 🚀 How to Run
 
-*-Live Url: https://clever-piroshki-83fb98.netlify.app/
+*-Live Url:https://clever-piroshki-83fb98.netlify.app/
 *-Github Link: https://github.com/mohammadtitomia420-hub/-Assignment--03-Portfolio.git
